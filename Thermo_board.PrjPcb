@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=0
+AutoSheetNumbering=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -107,22 +107,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVXXEXHF
 
-[Document5]
-DocumentPath=..\..\..\..\..\Public\Documents\Altium\AD21\Library\Miscellaneous Devices.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+[Parameter1]
+Name=Rev
+Value=A.0
+
+[Parameter2]
+Name=Engineer
+Value=Domenico Spagnuolo
 
 [Configuration1]
 Name=Sources
